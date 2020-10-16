@@ -5,7 +5,7 @@
 //Create a variable called 'lovesCode' and assign it a value of true or false (as a boolean) depending on if you love code or not. (It's okay if you don't yet!)
 
 // Code Here
-
+let lovesCode = true;
 //////////////////STEP 2////////////////////
 //Create a variable called 'age' that has a value equal to your age as a number. 
 

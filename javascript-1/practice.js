@@ -143,7 +143,6 @@ const myNumbers = [3, 55, 788, 2, 1];
 // Code Here
 let doubled = myNumbers.map((e) => (e *= 2));
 
-
 //////////////////PROBLEM 15////////////////////
 
 // Now, use .filter to create a new array containing any numbers that are greater than 100. Call the new array 'filtered'.
@@ -169,7 +168,7 @@ myNumbers.forEach((e, i, arr) => myNumbersIndex.push(i));
 const notGeorge = ["Louis", "Ted", "Bill", "Sharon", "Mark", "Angela"];
 
 // Code Here
-const forTheLoveOfGeorge = notGeorge.map(e => e = 'George');
+const forTheLoveOfGeorge = notGeorge.map((e) => (e = "George"));
 //////////////////PROBLEM 19////////////////////
 
 // Using the people array, filter out everyone that isn't a friend into a new array called 'enemies'. Use .filter().
@@ -183,10 +182,10 @@ const people = [
 ];
 
 // Code Here
-const enemies = people.filter(e => e.friend == false)
+const enemies = people.filter((e) => e.friend == false);
 //////////////////PROBLEM 20////////////////////
 
 // Using the people array above, get a total of the awesomeLevel from all the people, and store that value in a variable named 'totallyAwesome'. Use .reduce().
 
 // Code Here
-const totallyAwesome = people.reduce((a,c) => a+c.awesomeLevel,0);
+const totallyAwesome = people.reduce((a, c) => a + c.awesomeLevel, 0);
